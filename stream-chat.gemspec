@@ -27,9 +27,9 @@ Gem::Specification.new do |gem|
   }
 
   gem.add_dependency 'faraday', '< 3'
-  gem.add_dependency 'faraday-multipart', '>= 1'
-  gem.add_dependency 'faraday-net_http_persistent', '< 3'
+  gem.add_dependency 'faraday-multipart'
+  gem.add_dependency 'faraday-net_http_persistent'
   gem.add_dependency 'jwt', '>= 2.3'
-  gem.add_dependency 'net-http-persistent', '>= 2.0'
+  gem.add_dependency 'net-http-persistent'
   gem.add_dependency 'sorbet-runtime', '>= 0.5'
 end
